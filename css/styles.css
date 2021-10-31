@@ -1,0 +1,233 @@
+/* section 1 navbar */
+
+/* النافبار تنسيق كتابة النافبار*/
+.sec1-nav {
+font-family: 'Markazi Text', serif;
+font-weight: 400;
+font-size: 160%;
+}
+
+/* المسافات بين كتابة النافبار */
+.padding-nav {
+  padding: 0 2rem;
+}
+
+/* عدم وجود بادينج لل نافبار */
+.navbar {
+  padding: 0;
+}
+
+/* عدم وجود مارجين للوجو */
+.navbar-brand {
+  margin: 0;
+}
+/* ___________________________________________________________________________________ */
+
+
+/* section 2 introduction */
+
+
+/* صورة الخلفية لعنوان المكتب */
+.sec1-background {
+  background-image: url('../images/title-photo-1.jpg');
+  background-size: cover;
+}
+
+/* تنسيق كتابة مكتب المهندس اسامة حسني EB5F5E EB202A FFF836 .... */
+.title-font {
+  font-family: 'Markazi Text', serif;
+  font-weight: 700;
+  font-size: 400%;
+  text-align: center;
+  color: #EB202A;
+  text-shadow: 1px 1px 3px #000;
+  padding: 15% 3% 0;
+}
+
+/* تنسيق كتابة OHK */
+.title-english {
+  font-size: 550%;
+  padding: 0.5% 3%;
+  text-align: center;
+}
+
+/* تنسيق كتابة انت تستحق الافضل */
+.you-the-best {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;
+  font-size: 250%;
+  padding: 60% 0 15%;
+  text-align: center;
+  color: #FAFF00;
+  text-shadow: 1px 1px 2px #000;
+}
+/* ___________________________________________________________________________________ */
+
+
+/* section 3 we are */
+
+
+/* تنسيق كتابة نحن لا نرضى لعملائنا */
+.we-are-h2 {
+  font-family: 'Markazi Text', serif;
+  font-weight: 600;
+  font-size: 350%;
+  text-align: center;
+  padding: 5% 0 0;
+  margin: 0;
+  color: #EB202A;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* تنسيق كتابة ولهذا الغرض جمعنا فريقاً  */
+.we-are-h3 {
+  font-family: 'Markazi Text', sans-serif;
+  font-weight: 500;
+  font-size: 225%;
+  text-align: center;
+  padding: 3% 20% 5%;
+  line-height: 1.5;
+  color: #FAFF00;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* تنسيق الصور التي تحتل صفحة كاملة */
+.block-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding: 0 0 7%;
+}
+
+/* ___________________________________________________________________________________ */
+
+
+/* section 4 goals */
+
+/* خلفية قسم الاهداف */
+#goals {
+}
+
+/* تنسيق كتابة في كل عمل هندسي */
+.goals-h1 {
+  font-family: 'Markazi Text', serif;
+  font-weight: 600;
+  font-size: 350%;
+  text-align: center;
+  color: #EB202A;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 5%;
+}
+
+/* تظبيط الصور في سكشن الاهداف */
+.our-goal-image {
+  width: 100%;
+  margin-right: 3%;
+}
+
+/* في قسم الاهداف تنسيق كتابة العناوين */
+.goals-h2 {
+  font-family: 'Markazi Text', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 225%;
+  padding-top: 7%;
+  color: #FAFF00;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* تنسيق كتابة وصف الصور في قسم الاهداف */
+.goals-h3 {
+  font-family: 'Markazi Text', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 225%;
+  text-align: justify;
+  -moz-text-align-last: right; /* For Firefox prior 58.0 */
+  text-align-last: right;
+  margin: 22% 3%;
+  color: #FAFF00;
+  text-shadow: 1px 1px 1px #000;
+}
+@media (max-width: 1382px) {
+  .goals-h3 {
+    line-height: 1.2;
+    font-size: 160%;
+    margin-top: 32%;
+  }
+  .goals-h2{
+    font-size: 160%;
+  }
+}
+
+/* جعل الخط اسود */
+.reveal-1 {
+  color: #000;
+}
+/* ___________________________________________________________________________________ */
+
+
+/* section 6 services */
+
+/* البادينج تحت للعنوان الرئيسي */
+.sec2-background {
+  background-image: url('../images/title-photo-2.jpg');
+  background-size: cover;
+}
+
+/* عمل فاصل للصف الثاني لمعادلة الخلل في الصف الثالث */
+.row-2 {
+  padding-top: 1.5%;
+}
+/* ___________________________________________________________________________________ */
+
+/* section 8 contact us */
+
+/* تنسيق قسم الاتصال */
+.map {
+  text-align: center;
+  padding: 10% 0;
+}
+
+/* تلوين الايقونات */
+.fas, .fab {
+  color: green;
+}
+
+/* تظبيط خط اتصل بنا */
+#contact-us h3 {
+  font-family: 'Markazi Text', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  padding-top: 7%;
+}
+/* تنسيق الخريطة */
+.google-map {
+  display: block;
+  margin: auto;
+  width: 800px;
+  height: 600px;
+  border: solid 1px;
+}
+
+/* ___________________________________________________________________________________ */
+
+/* footer */
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 7.5%;
+}
+.footer-button {
+  padding: 3% 1%;
+}
+
+.icons-footer {
+  color: #000;
+  padding: 1rem;
+}
+.icons-footer:hover {
+  color: grey;
+}
